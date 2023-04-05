@@ -8,17 +8,18 @@
 </head>
 <body>
  <div>
-    <form method="get" action="index.php"
-    Numero: <input type="number" name="num"/><br/>
+    <form method="get" action="index.php">
+    Numero:  <input type="number" name="num"/><br/>
+
     <fieldset>
-        <input typer="radio" name="oper" id="dobro"/>
+        <input type="radio" name="oper" value="1" id="dobro" checked/>
         <label for="dobro">Dobro</label>
-        <input type="radio" name="oper" id="cubo"/>
+        <input type="radio" name="oper" value="2" id="cubo"/>
         <label for="cubo">Cubo</label>
-        <input type="radio" name="oper" id="raiz"/>
+        <input type="radio" name="oper" value= "3" id="raiz"/>
         <label for="raiz">Raiz Quadrada</label>
     </fieldset>
-    <input type="submit" value="Calcular"/>
+    <input type="submit" class="botao" value="Calcular"/>
  </form>  
  </div>   
 </body>
